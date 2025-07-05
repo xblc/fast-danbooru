@@ -9,7 +9,7 @@
 |--------|------|------|
 | `work_name` | 字符串 | 作品名（自动转为 `copyright:` 标签） |
 | `character_name` | 字符串 | 角色名（自动转为 `character:` 标签） |
-| `tags[]` | 字符串数组 | 通用标签（AND 逻辑） |
+| `tags[]` | 字符串数组 | 通用标签（AND 逻辑），唯一必填参数 |
 | `width` | 整数 | 宽度范围（±100） |
 | `select_mode` | 枚举 | 选图方式（基于排序）：`default`, `random`, `score`, `rank` 等 |
 
@@ -39,7 +39,7 @@ GET /image.jpg?tags[]=cute&select_mode=random
 
 ## 酒馆配置
 
-请参考 ![类脑话题](https://discord.com/channels/1134557553011998840/1379737729348145162/1379737729348145162)
+请参考 [类脑话题](https://discord.com/channels/1134557553011998840/1379737729348145162/1379737729348145162)
 
 
 ## 后续计划
